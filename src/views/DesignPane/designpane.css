@@ -18,7 +18,7 @@ margin-left: 126.5px;
 .ant-btn{
     padding: 0px 8px;
     /* border-color:#968176; */
-    margin-left: 390px;
+    margin-left: 93%;
     /* color: rgba(0, 0, 0, 0.65); */
 }
 .ant-upload-list-item-info{
@@ -30,11 +30,11 @@ margin-left: 126.5px;
 
 #biankuang{
     height:35px;
-    width:380px;
+    width:calc(90% - 10px);
     border:1px solid #BBBBBB;
     border-radius: 5px;
     margin-top: 0px;
-    position: absolute;;
+    position: absolute;
 }
 #imgupload{
     height:35px;

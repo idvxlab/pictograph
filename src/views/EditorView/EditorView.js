@@ -100,13 +100,13 @@ export default class EditorView extends Component {
                                 <Content width={0.3*windowWidth} style={{height:0.4*windowHeight, padding:'5px'}}>
                                     <DesignPane />
                                 </Content>
-                                <Footer width={0.3*windowWidth}  style={{height:0.6*windowHeight,marginBottom: '0px', padding:'5px'}}>
+                                <Footer width={0.3*windowWidth}  style={{height:0.606*windowHeight,marginBottom: '0px', padding:'5px'}}>
                                     <DataPane />
                                 </Footer>
                             </Layout> 
                         </Sider>
                         <Layout style={{ height: windowHeight, backgroundColor: '#F5F5F5'}}>
-                            <Content width={0.55*windowWidth} style={{ height: windowHeight , padding:'5px 0'}}>
+                            <Content width={0.57*windowWidth} style={{ height: windowHeight , padding:'5px 0'}}>
                                 <CanvasPane />
                             </Content>
                         </Layout>

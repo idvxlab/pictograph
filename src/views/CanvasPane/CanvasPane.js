@@ -1264,8 +1264,8 @@ onShowMore =()=>{
             {/* <canvas width="710px" height="610px" id="c" style={{ border:'1px solid #968176',borderRadius: '5px'}}> </canvas> */}
             {/* {this.generateDOM()} */}
               <ResponsiveReactGridLayout
-                style={{width:'684px',height:'708px',marginTop: '20px', background:this.state.backgroundcolor, border:'1px solid #968176',borderRadius: '5px'}}
-                className="layout"
+                style={{width:'100%',background:this.state.backgroundcolor, border:'1px solid #968176',borderRadius: '5px'}}
+                className="layout canvas-grid-layout"
                 cols={{ lg: 12, md: 10, sm: 6, xs: 4, xxs: 2 }}
                 layouts={this.state.layouts}
                 onLayoutChange={(layout, layouts) =>

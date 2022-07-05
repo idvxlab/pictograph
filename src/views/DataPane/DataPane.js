@@ -657,7 +657,7 @@ export default class DataPane extends Component {
                                 defaultValue={currentData.name}
                                 onChange={(e) => this.handleDataSelect(e)}
                                 optionLabelProp="label"
-                                style={{  width: 380, padding: '0px 10px 0px 0px'}}
+                                style={{  width: "93%"}}
                             >
                                 {dataNameList.map((d, i) => (
                                     <Option label={d} key={d}>{d.length>30? d.slice(0, 29)+'...    ':d+'    ' }
@@ -672,7 +672,7 @@ export default class DataPane extends Component {
                                 )}
                             </Select>
                         </div>
-                        <div style={{ width:'30px',height: '30px',padding: '0px 0px 0px 0px',marginLeft:'380px',marginTop:'-30px', border:'1px solid #968176', borderRadius:'2px'}} >
+                        <div style={{ width:'30px',height: '30px',padding: '0px 0px 0px 0px',marginLeft:'94%',marginTop:'-30px', border:'1px solid #968176', borderRadius:'2px'}} >
                             <Upload
                                 accept=".csv"
                                 showUploadList={false}

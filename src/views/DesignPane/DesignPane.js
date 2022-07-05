@@ -850,7 +850,7 @@ export default class DesignPane extends Component {
         // console.log('featuresList-conmpont',this.props.featuresList);
 
         return (
-               <div className='pane' style={{width: '100%',height: '100%'}}>
+               <div className='pane design-pane' style={{width: '100%',height: '100%'}}>
                     <Divider orientation="left">DESIGN</Divider>
                     <div id="imgupload">
                         <div className="clearfix">

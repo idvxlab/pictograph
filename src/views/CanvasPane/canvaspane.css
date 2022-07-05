@@ -133,7 +133,7 @@ input{
   border:1px solid #968176;
   border-radius: 5px;
   width:'80px';
-  height: 708px;
+  height: calc(100vh - 130px);
   margin-left: 0px;
   margin-top: 25px;
   margin-right: 8px;
@@ -198,3 +198,7 @@ input{
 .uploadIcon .ant-btn{
   margin-left: 0;
 }
+
+.canvas-grid-layout {
+  height: calc(100vh - 130px) !important;
+} 
