@@ -1,0 +1,38 @@
+#pictoPreview {
+    margin-bottom: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: 25px;
+}
+
+.preview {
+    border-radius: 10px;
+    border-style:solid; 
+    border-width: 2px;
+    border-color: #eee;
+    height: 160px;
+    width: 175px;
+    float:left;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.canvasColor {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  /* #pictoPreview i{
+    margin-left: 145px;
+  } */
+  .suggestionicon{
+    display: inline-block;
+  }
+
+  .anticon:hover {
+    color: 'rgb(226, 87, 11)';
+  }
+
+  /* #similar:hover {
+    color: 'rgb(226, 87, 11)';
+  } */

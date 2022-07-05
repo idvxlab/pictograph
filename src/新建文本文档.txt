@@ -1,0 +1,3 @@
+let categoriesreadingTest = ["1001tracklists","1password","3m","adobephotoshop","adobephonegap","adguard","acm","accenture"];
+      let seriesreadingTest = ["1001tracklists","1password","3m","adobephotoshop","adobephonegap","adguard","acm","accenture"];
+      let icontypeTest =  ["1001tracklists","1password"];

@@ -1,0 +1,6 @@
+.column-list-container {
+    overflow: auto;
+    padding: 0px 0px;
+    height: calc(100vh - 565px);
+    text-align:center;
+}

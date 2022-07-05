@@ -1,0 +1,87 @@
+.ant-upload-list{
+    /* border:1px solid #968176; */
+    margin-top: -33px;
+    width: 250px;
+}
+
+.ant-upload-list-item {
+    position: relative;
+    height: 20px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.ant-upload{
+margin-left: 126.5px;
+}
+.ant-btn{
+    padding: 0px 8px;
+    /* border-color:#968176; */
+    margin-left: 390px;
+    /* color: rgba(0, 0, 0, 0.65); */
+}
+.ant-upload-list-item-info{
+    width:380px;
+}
+.ant-upload-list-item-card-actions {
+    right: -115px;
+}
+
+#biankuang{
+    height:35px;
+    width:380px;
+    border:1px solid #BBBBBB;
+    border-radius: 5px;
+    margin-top: 0px;
+    position: absolute;;
+}
+#imgupload{
+    height:35px;
+}
+
+.ant-radio-wrapper{
+    padding:4px;
+}
+.elementsimg{
+    /* width:120px; */
+    /* height:82px; */
+    padding-left: 0px;
+}
+.elementsimg1{
+    padding-left: 0px;
+    /* width:120px; */
+    /* height:20px; */
+}
+.style1{
+    height:25px;
+    width:130px;
+    /* border:1px solid #BBBBBB; */
+    /* border-radius: 5px; */
+    margin-left: 90px;
+    margin-top: -20px;
+}
+.ant-radio-group{
+    margin-top: -16px;
+    height: 180px;
+    overflow: hidden auto;
+}
+
+.picStyle{
+    margin-top: -12px;
+}
+
+.colorTheme{
+    width:20px;
+    height:20px;
+    border:1px solid rgb(150, 129, 118);
+    border-radius: 5px;
+    margin-top: 1px;
+    margin-left: 2px;
+}
+.style1 div{
+    display: inline-block;
+}
+.ant-upload-list-item-list-type-picture{
+    display: none;
+}

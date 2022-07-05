@@ -1,0 +1,85 @@
+/* global css */
+.pane {
+    background: #fff;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+    /* margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 2px;
+    margin-right: 2px; */
+    border-radius: 5px;
+    padding: 5px;
+    /* box-shadow:  0px 0px 4px 1px #dddddd; */
+}
+
+.header {
+    background-color: #eee;
+    margin: 5px;
+    padding-left: 10px;
+    padding-top: 4px;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Avenir Heavy', Arial, Helvetica, sans-serif;
+}
+
+.ant-btn-link {
+    color:  #00aeff !important;
+}
+
+/* project id 1938658 在线引入*/
+@font-face {
+    font-family: 'iconfont';  /* project id 1938658 */
+    src: url('//at.alicdn.com/t/font_1938658_pbkk1evkkqc.eot');
+    src: url('//at.alicdn.com/t/font_1938658_pbkk1evkkqc.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1938658_pbkk1evkkqc.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1938658_pbkk1evkkqc.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1938658_pbkk1evkkqc.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1938658_pbkk1evkkqc.svg#iconfont') format('svg');
+  }
+  @font-face {
+    font-family: 'iconfont';  /* Project id 2593126 */
+    src: url('//at.alicdn.com/t/font_2593126_abx3cxgb29o.woff2?t=1627656500675') format('woff2'),
+         url('//at.alicdn.com/t/font_2593126_abx3cxgb29o.woff?t=1627656500675') format('woff'),
+         url('//at.alicdn.com/t/font_2593126_abx3cxgb29o.ttf?t=1627656500675') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'webfont';
+    font-display: swap;
+    src: url('//at.alicdn.com/t/webfont_zqqkin90us.eot'); /* IE9*/
+    src: url('//at.alicdn.com/t/webfont_zqqkin90us.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//at.alicdn.com/t/webfont_zqqkin90us.woff2') format('woff2'),
+    url('//at.alicdn.com/t/webfont_zqqkin90us.woff') format('woff'), /* chrome、firefox */
+    url('//at.alicdn.com/t/webfont_zqqkin90us.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('//at.alicdn.com/t/webfont_zqqkin90us.svg#站酷高端黑') format('svg'); /* iOS 4.1- */
+  }
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 25px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*定义滚动条高宽及背景
+ 高宽分别对应横竖滚动条的尺寸*/
+ ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    /*background-color:#F5F5F5;*/
+}
+
+/*定义滑块
+ 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #555;
+    margin-top: 2px;
+}
+.ant-divider-inner-text{
+    color:#968176;
+}
+
