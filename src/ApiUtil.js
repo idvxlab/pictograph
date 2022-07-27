@@ -10,7 +10,7 @@ export default class ApiUtil {
     // static URL_IP = 'http://3q2365905g.zicp.vip:80';
     // static URL_IP = 'http://127.0.0.1:5000';
     // static URL_IP = 'http://10.11.50.48:5000';
-    static URL_IP = 'http://202.120.165.126:5000';
+    static URL_IP = 'http://202.120.165.126:8000';
     static URL_ROOT = '/api/v1';
  
     static API_WORDTOVEC = ApiUtil.URL_IP + ApiUtil.URL_ROOT + '/word2vec'; 
