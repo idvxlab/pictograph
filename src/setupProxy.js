@@ -17,6 +17,11 @@ module.exports = function (app) {
       pathRewrite:{
          '^/aliApi':'/'
       }
-   }))
+   }));
+   app.use(proxy('/api/v1', {
+      target: "http://202.120.165.126:8000",
+      changeOrigin: true,
+   }));
+
 };
 
